@@ -13,6 +13,7 @@ An app designed to make accessing Air Quality Information, more accessible, legi
 
 <img src="https://github.com/cepholopoddreamz/AirIQ/blob/637359ede30f31185aea5d61b947d922836dafa9/client/public/mapview.png" width="250">
 
+<img src="https://github.com/cepholopoddreamz/AirIQ/blob/293720f292cb44671b6bdc52c920ced133bb148c/client/public/readme6.png" width="250">
 </div>
 
 
