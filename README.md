@@ -1,3 +1,7 @@
+# AIR IQ - bringing Air Quality info, to you
+
+
+
 # INSTALL DEPENDENCIES
 
 1. cd into the */server* folder.
