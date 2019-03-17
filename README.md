@@ -1,6 +1,6 @@
 # AIR IQ - bringing Air Quality info, to you : React-based Mobile App
 
-!["screen cap of front page MOBILE View"](https://github.com/cepholopoddreamz/tweeter/blob/master/public/images/screenshot.png)
+!["screen cap of front page MOBILE View"](https://github.com/cepholopoddreamz/AirIQ/blob/560e41eb3ffe84afd4c760aab4b4b8f54629a7a7/client/public/readme3.png)
 
 !["screen cap of front page with alternative city location look up"](https://github.com/cepholopoddreamz/AirIQ/blob/560e41eb3ffe84afd4c760aab4b4b8f54629a7a7/client/public/readme2.png)
 
