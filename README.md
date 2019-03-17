@@ -1,16 +1,19 @@
 # AIR IQ - bringing Air Quality info, to you : React-based Mobile App
 
+An app designed to make accessing Air Quality Information, more accessible, legible, and customizes recommendations based on user profiles. Built for mobiles, in React, React Router DOM, Express, Postgres, React Bootstrap. Created as part of the Collaborative Final Project for Lighthouse Labs, with <a href="https://github.com/qwhat">Justin Mao</a> and <a href="https://github.com/sogbdn">Sonia Barret de Nazaris</a>
+
 <img src="https://github.com/cepholopoddreamz/AirIQ/blob/560e41eb3ffe84afd4c760aab4b4b8f54629a7a7/client/public/readme3.png" width="250">
 
-!["screen cap of front page with alternative city location look up"](https://github.com/cepholopoddreamz/AirIQ/blob/560e41eb3ffe84afd4c760aab4b4b8f54629a7a7/client/public/readme2.png)
+<img src="https://github.com/cepholopoddreamz/AirIQ/blob/560e41eb3ffe84afd4c760aab4b4b8f54629a7a7/client/public/readme2.png" width="250">
 
-!["screen cap of front page MOBILE View"](https://github.com/cepholopoddreamz/AirIQ/blob/560e41eb3ffe84afd4c760aab4b4b8f54629a7a7/client/public/readme5.png)
+<img src="https://github.com/cepholopoddreamz/AirIQ/blob/560e41eb3ffe84afd4c760aab4b4b8f54629a7a7/client/public/readme5.png" width="250">
 
-An app designed to make accessing Air Quality Information, more accessible, legible, and customizes recommendations based on user profiles. Built for mobiles, in React, React Router DOM, Express, Postgres, React Bootstrap.
 
-!["screen cap of front page with alternative city location look up"](https://github.com/cepholopoddreamz/AirIQ/blob/560e41eb3ffe84afd4c760aab4b4b8f54629a7a7/client/public/readme4.png)
+<img src="https://github.com/cepholopoddreamz/AirIQ/blob/560e41eb3ffe84afd4c760aab4b4b8f54629a7a7/client/public/readme4.png" width="250">
 
-!["screen cap of front page with alternative city location look up"](https://github.com/cepholopoddreamz/AirIQ/blob/560e41eb3ffe84afd4c760aab4b4b8f54629a7a7/client/public/readme5.png)
+<img src="https://github.com/cepholopoddreamz/AirIQ/blob/560e41eb3ffe84afd4c760aab4b4b8f54629a7a7/client/public/readme5.png" width="250">
+
+
 
 # INSTALL DEPENDENCIES
 
