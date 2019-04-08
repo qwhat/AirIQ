@@ -32,4 +32,8 @@ These keys will need to be added in order to look up locations beyont the defaul
 
 NOTE: To use the Maps JavaScript API, you must get an API key and you must enable billing in your account. The links above will explain the necessary steps in further detail. You can enable billing when you get your API key (see the Quick guide) or as a separate process (see Usage and Billing).
 
+2. Add API Key to two files. First, in the client folder (/client/public/index.html), in the index.html file, at the line ```script src="https://maps.googleapis.com/maps/api/js?key=INSERTAPIKEYHERE&libraries=places"```.
+Second, in the client folder, (/client/src/components/pages/MapView.js), in the MapView.js file, at line 287:
+```apiKey: ('INSERTAPIKEYHERE')```
+ 
 
