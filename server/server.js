@@ -60,7 +60,9 @@ app.get('/verify/:token', (req, res) => {
 
 // POST routes
 app.post('/register', (req, res) => {
-	knex('users')
+	knex
+		.from('users')
+		.fullOuterJoin('locations', 'users.location_id', 'locations.id')
 		.returning('*')
 		.insert({
 			first_name: req.body.first_name,
@@ -70,7 +72,10 @@ app.post('/register', (req, res) => {
 			password: req.body.password,
 			profile_type: req.body.concern_type,
 			sms_good_days: req.body.good_days,
-			sms_bad_days: req.body.bad_days
+			sms_bad_days: req.body.bad_days,
+			city: req.body.city,
+			state: req.body.state,
+			country: req.body.country
 		})
 		.then(([ user ]) => {
 			console.log(user);
@@ -80,7 +85,6 @@ app.post('/register', (req, res) => {
 				token: token
 			});
 		});
-
 });
 
 app.post('/changeNumber', (req, res) => {
@@ -110,26 +114,19 @@ app.post('/changeNumber', (req, res) => {
 		});
 });
 
-
-
-
 app.post('/checkEmail', (req, res) => {
-	knex
-		.select('*')
-		.from('users')
-		.where({ email:req.body.email })
-		.then((results) => {
-			if (results.length === 0) {
-				res.json({
-					uniqueness: true
-				})
-			} else {
-				res.json({
-					uniqueness: false
-				})
-			}
-		})
-})
+	knex.select('*').from('users').where({ email: req.body.email }).then((results) => {
+		if (results.length === 0) {
+			res.json({
+				uniqueness: true
+			});
+		} else {
+			res.json({
+				uniqueness: false
+			});
+		}
+	});
+});
 
 app.post('/login', (req, res) => {
 	const loginEmail = req.body.email;
