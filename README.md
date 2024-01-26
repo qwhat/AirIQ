@@ -42,7 +42,7 @@ An app designed to make accessing Air Quality Information, more accessible, legi
 
 1. You will need to generate and add your own GoogleAPI keys, following the unfortunate change to a paid use/access to the API in 2018.
 
-<a href="https://developers.google.com/maps/documentation/javascript/get-api-key#quick-guide">QUICK GUIDe</a>
+<a href="https://developers.google.com/maps/documentation/javascript/get-api-key#quick-guide">QUICK GUIDE</a>
 
 Google <a href="https://developers.google.com/maps/documentation/javascript/tutorial">JAVASCRIPT API</a>
 
